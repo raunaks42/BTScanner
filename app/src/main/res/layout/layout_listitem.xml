@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/rvLayout">
+
+    <ImageView
+        android:id="@+id/rvImage"
+        android:tint="#6F000000"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/rvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rvImage"
+        android:layout_alignTop="@+id/rvImage"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:textColor="#fff"
+        android:textSize="40sp"/>
+    <TextView
+        android:id="@+id/tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rvImage"
+        android:layout_below="@+id/rvName"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Tags: "
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/rvTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tags"
+        android:layout_below="@+id/rvName"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/cats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tags"
+        android:layout_alignLeft="@+id/rvImage"
+        android:paddingLeft="10dp"
+        android:paddingVertical="10dp"
+        android:text="Categories: "
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/rvCats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cats"
+        android:layout_below="@+id/tags"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/rvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rvImage"
+        android:layout_alignBottom="@+id/rvImage"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

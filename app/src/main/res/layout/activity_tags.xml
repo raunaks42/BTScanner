@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bggradient"
+    tools:context=".tags">
+
+    <TextView
+        android:id="@+id/tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:text="Tags"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/addtag"
+        android:layout_below="@+id/tags"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="addtag"
+        android:background="@drawable/add"
+        android:layout_marginTop="30dp" />
+    <ListView
+        android:id="@+id/taglist"
+        android:layout_below="@+id/addtag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:id="@+id/cats"
+        android:layout_below="@+id/taglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:text="Categories"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/addcat"
+        android:layout_below="@+id/cats"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="addcat"
+        android:background="@drawable/add"
+        android:layout_marginTop="30dp" />
+    <ListView
+        android:id="@+id/catlist"
+        android:layout_below="@+id/addcat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></ListView>
+    <Button
+        android:id="@+id/finish"
+        android:layout_below="@+id/catlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Finish"
+        android:onClick="finish"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:background="#122335"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>

@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Users\\User\\Documents\\BTscanner",
+      "sdkFolder": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "C:\\Users\\User\\Documents\\BTscanner\\app",
+      "makeFile": "C:\\Users\\User\\Downloads\\opencv-3.4.6-android-sdk\\OpenCV-android-sdk\\sdk\\native\\jni\\OpenCV.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "C:\\Users\\User\\Documents\\BTscanner\\.cxx",
+      "cxxFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 23,
+  "cxxBuildFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86",
+  "jsonFile": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\cxx\\debug\\x86",
+  "objFolder": "C:\\Users\\User\\Documents\\BTscanner\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86",
+  "buildCommandFile": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86\\build_command.txt",
+  "buildOutputFile": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86\\build_output.txt",
+  "modelOutputFile": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Users\\User\\Documents\\BTscanner\\app\\.cxx\\ndkBuild\\debug\\x86\\compile_commands.json"
+}
